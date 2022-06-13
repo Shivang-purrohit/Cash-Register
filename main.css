@@ -59,6 +59,9 @@ table, th, td {
 input,label{
     display: block;
     text-align: center;
+    font-size: large;
+    border: #004643;
+    padding: 0.25rem;
 }
 
 input{
@@ -81,4 +84,34 @@ caption{
 .description{
     text-align: center;
     padding: 1rem;
+}
+
+
+.txtdecor{
+    text-decoration: none;
+}
+.social-link{
+    list-style:none ;
+  text-align: center;
+
+}
+
+
+.link{
+    display: inline;
+    padding: 1rem;
+    
+    
+    
+    
+}
+
+footer{
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.txtdecor:hover{
+    border-bottom: 1px solid #F9BC60;
 }
