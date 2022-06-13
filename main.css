@@ -1,9 +1,84 @@
-*{
 
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Kdam+Thmor+Pro&family=Montserrat:ital,wght@1,300;1,400;1,700&family=Pacifico&display=swap');
+
+*{
+    background-color: #004643;
+color: white;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.heading{
+    text-align: center;
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
-    width: 50vw;
+width: 50%;
+   
+   margin: auto;
+   padding: 2rem;
+    
+}
+
+.change-table{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#bill-amount{
+    background-color: #F9BC60;
+    width: 100%;
+    padding-top: 1rem;
+    margin: 1rem;
+    color: #004643;
+
+}
+
+table, th, td {
+    border: 1px solid;
+    width: 40%;
+    padding: 1rem;
+    border-color: #F9BC60;
+    
+}
+.no-of-notes{
+    
+}
+
+
+#cash-given {
+    background-color: #F9BC60;
+    width: 100%;
+    padding-top: 1rem;
+    margin: 1rem;
+    text-align: center;
+    color: #004643;
+}
+
+input,label{
+    display: block;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+    
+}
+#check-button{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0.7rem;
+    border-color: #F9BC60;
+
+}
+caption{
+    padding: 2rem;
+}
+
+.description{
+    text-align: center;
+    padding: 1rem;
 }
